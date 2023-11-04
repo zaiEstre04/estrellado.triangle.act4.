@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity #4</title>
+</head>
+<style>
+    body{
+        color: white;
+        background-color: blanchedalmond;
+        font-family: monospace;
+        background-size: cover;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container {
+        background-color: rgb(65, 116, 255);
+        padding: 80px;
+        border-radius: 20px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    button {
+        margin-top: 10px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 25px;
+        background-color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: .4s;
+    }
+
+    button:hover{
+        background-color: blanchedalmond;
+    }
+</style>
+<body>
+    <div class="container">
+        <h3>ITPROFEL1 - Web Interactive Designing</h3>  
+        <hr>
+        <h1>Activity #4: Determine the Triangle</h1>
+        <p>Is it Equilateral? Isosceles? Scalene?</p>
+        <p>🧐</p>
+        <button onclick="promptTriangle()">Check it!</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
